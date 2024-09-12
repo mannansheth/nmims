@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="styles/form_style.css">
+  <link rel="icon" href="images/nmims.png">
+  <link rel="stylesheet" href="styles/style.css">
+  <style>
+    .login button {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header></header>
+  <div>
+    <img src="images/building.jfif" class="building">
+  </div>
+  <section class="form">
+    <div class="login-div">
+      <h1>Login page</h1>
+      <form method="GET" action="" onsubmit="Submit(event)">
+        <input placeholder="SAP ID" required maxlength="11" minlength="11" id="username">
+        <input type="password" placeholder="Password" required id="password">
+          <button class="submit" type="submit">
+            Submit
+          </button>
+        <br><br>
+      </form>
+      <h3>
+        Don't have an account? <a href="personal.html">Register</a>
+      </h3>
+    </div>
+  </section>
+  <footer class="footer"></footer>
+  <script src="script/script.js"></script>
+  <script src="header.js"></script>
+  <script src="footer.js"></script>
+  <script src="script/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+
+.form {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  margin-top:100px;
+}
+.form h1 {
+  font-size:3vw;
+  text-align: center;
+  color:white;
+}
+.form input {
+  width: 80%;
+  font-size:1.8vw;
+  border-radius:5vw ;
+  padding:10px 25px;
+  margin:0 10px 0 10px;
+  background-color: rgb(225, 225, 225);
+}
+.login-div {
+  background:linear-gradient(to top left, black, red);
+  width:40%;
+  border-radius: 0 40px 0 40px;
+  border: 3px solid black;
+  align-items:center;
+  justify-content: center;
+  display:flex;
+  flex-direction: column;
+  row-gap:0px;
+  position:absolute;
+  top:25vh;
+
+}
+.form label {
+  color:rgba(255, 255, 255, 0.85);
+  align-self: flex-start;
+  margin: 0 0 -1vw 1.5vw;
+  font-size:1.4vw;
+
+}
+.submit {
+  width:150px;
+  border-radius:20px;
+  font-size:25px;
+  padding:1vw 1.5vw;
+}
+.form form {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:-20px;
+  row-gap:20px;
+}
+.form h3 {
+  color:white;
+}
+.form a {
+  color:lightblue;
+}
+.building {
+  width:100%;
+  height:120%;
+  position:relative;
+  opacity:0.5;
+  margin-bottom:-5%;;
+}
+.err::placeholder {
+  color:Red;
+}
+@media (max-width: 1024px) {
+  .login-div {
+    width: 60%;
+    top: 20vh;
+  }
+  
+  .form h1 {
+    font-size: 4vw;
+  }
+  
+  .form input {
+    font-size: 16px;
+  }
+
+  .form label {
+    font-size: 2vw;
+  }
+}
+@media (max-width: 768px) {
+  .login-div {
+    width: 70%;
+    top: 15vh;
+  }
+
+  .form h1 {
+    font-size: 5vw;
+  }
+
+  .form input {
+    font-size: 14px;
+  }
+
+  .submit {
+    width: 130px;
+    font-size: 22px;
+  }
+
+  .form label {
+    font-size: 3vw;
+  }
+}
+@media (max-width:480px) {
+  .login-div {
+    width: 40%;
+    top: 10%;
+    padding: 10px;
+  }
+
+  .form h1 {
+    font-size: 4vw;
+  }
+  .building {
+    width:100%;
+    height:200%;
+  }
+  .form input {
+    font-size: 3vw;
+    padding: 2vw 3vw;
+    width:70%;
+    margin-bottom:-5%;
+  }
+
+  .submit {
+    width: 30vw;
+    font-size: 4vw;
+  }
+
+  .form label {
+    font-size: 4vw;
+  }
+  .form h3 {
+    font-size:2.5vw;
+  }
+}

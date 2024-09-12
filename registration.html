@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="styles/form_style.css">
+  <link rel="icon" href="images/nmims.png">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    
+  </header>
+  <div>
+    <img src="images/building.jfif" class="building">
+  </div>
+  <section class="form">
+    <img src="images/logo.png" class="logo">
+    <div class="login-div">
+      <h1>Registration</h1>
+      <form method="GET" action="index.html">
+        <input placeholder="Username" required>
+        <label>Upload your photo in jpg/png format</label>
+        <input type="file" accept="image/*" capture="user">
+        <input type="password" placeholder="Password" required>
+        <input type="password"placeholder="Enter Password again" required>
+        <button class="submit" type="submit" onclick="alert('Registration Succesful!')">
+          Register
+        </button>
+        <br>
+      </form>
+      <h3>
+        Click here to go back to <a href="index.html">Home</a>
+      </h3>
+    </div>
+  </section>
+  <footer class="footer"></footer>
+  <script src="header.js"></script>
+  <script src="footer.js"></script>
+  <script src="script/script.js"></script>
+</body>
+</html>
