@@ -357,7 +357,7 @@ header {
     padding:3% 2%;
     .icon {
       width:20%;
-      margin-right:3vw;
+      margin-right:2vw;
       border-color:rgba(255, 255, 255, 0.719);
     }
     .user-name,
@@ -390,7 +390,7 @@ header {
     justify-content: center;
     .icon {
       width:20%;
-      margin-right:1vw;
+      margin-right:-3vw;
       border-color:rgba(255, 255, 255, 0.719);
     }
     .user-name,
@@ -464,13 +464,15 @@ header {
   .icon {
     width:26%;
     margin-left:2%;
+
   }
   .user-name,
   .user-sap {
     font-size:1.9vw;
   }
 }
-.profile-info {
+.profile-info,
+.profile-info-sidebar {
   position:absolute;
   right:4vw;
   top:8.2vw;
@@ -481,12 +483,20 @@ header {
   opacity:0;
   transition:opacity 0.5s ease, visibility 0s 0.5s;
 }
-.profile-info.show {
+.profile-info.show,
+.profile-info-sidebar.show {
   visibility:visible;
   opacity: 1;
   transition: opacity 0.5s ease;
 }
-.profile-info a {
+.profile-info-sidebar {
+  top:20vw;
+  left:4vw;
+  width:70%;
+  right:0;
+}
+.profile-info a, 
+.profile-info-sidebar a {
   color:black;
   font-weight:600;
   text-decoration:none;

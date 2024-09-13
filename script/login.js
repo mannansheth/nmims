@@ -1,5 +1,5 @@
 
-const fetchData = () => {
+const fetchData = async () => {
   return fetch('data/data.json')
   .then(response => response.json())
   .catch(err => console.log(err));
