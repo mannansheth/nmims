@@ -42,16 +42,5 @@
         "stream": "CS",
         "rollNumber": "C168",
         "imageURL": "images\/70322200175.jfif"
-    },
-    "70322200117": {
-        "password": "$2y$10$Tnbz3RAvK0bY7xZKDaL0e.C807z\/ySUejoa0LTeDYprzdOjBkkyBi",
-        "fullName": "Mannan Sheth",
-        "number": "9869968987",
-        "email": "mannan.sheth4@gmail.com",
-        "semester": "5",
-        "course": "BTI",
-        "stream": "CS",
-        "rollNumber": "C158",
-        "imageURL": "images\/profile.png"
     }
 }

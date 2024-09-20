@@ -22,7 +22,7 @@
 .password-container {
   position:relative;
   display:inline-block;
-  width:100%;
+  width:90%;
   margin:5px 10px 5px -10px;
 }
 .password-container input {
@@ -97,7 +97,7 @@
   height:120%;
   position:relative;
   opacity:0.5;
-  margin-bottom:-5%;;
+  margin-bottom:-5%;
 }
 .err::placeholder {
   color:Red;

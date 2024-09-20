@@ -96,6 +96,12 @@ const validate = async e => {
   }
   
   const personalDetails = JSON.parse(localStorage.getItem('newData'));
+
+  if (!personalDetails) {
+    alert('You need to fill your personal details first.');
+    window.location.href='personal.html';
+    return false;
+  }
   console.log(personalDetails);
 
   const fullnewData = {
