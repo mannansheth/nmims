@@ -17,14 +17,11 @@ const logOut = () => {
   location.reload();
 }
 
-const toggleUserInfo = (element, msg) => {
+const toggleUserInfo = (element) => {
   if (element.classList.contains('show')) {
     element.classList.remove('show');
   } else {
-    element.classList.add('show');
-    console.log(msg);
-    console.log(element.classList);
-    
+    element.classList.add('show');    
   }
 }
 
@@ -39,8 +36,8 @@ const updateUserInfo = () => {
     const parsed_user_data = JSON.parse(stored_data);
     console.log(parsed_user_data);
     user_info.classList.add('profile-div');
-    user_info.addEventListener('click', () => toggleUserInfo(profile_info, 'hello1'));
-    user_info_sidebar.addEventListener('click', () => toggleUserInfo(profile_info_sidebar, 'hello2'));
+    user_info.addEventListener('click', () => toggleUserInfo(profile_info));
+    user_info_sidebar.addEventListener('click', () => toggleUserInfo(profile_info_sidebar));
 
     user_info.innerHTML = `<img class="icon" src="${parsed_user_data.imageURL || 'images/profile.png'}"></img>
     <div class="name-sap">
@@ -53,13 +50,13 @@ const updateUserInfo = () => {
       <h3 class="user-name">${parsed_user_data.fullName}</h3>
       <h3 class="user-sap">${sap}</h3>
     </div>`
-    profile_info.innerHTML = `<a href="">${parsed_user_data.rollNo} </a>
+    profile_info.innerHTML = `<a href="">${parsed_user_data.rollNumber} </a>
   <a href="">${parsed_user_data.email} </a>
   <a href>${parsed_user_data.number} </a>
   <a href="">Profile</a>
   <a href="">Change Password</a>
   <a href="" id="logout">Logout</a>`;
-    profile_info_sidebar.innerHTML = `<a href="">${parsed_user_data.rollNo} </a>
+    profile_info_sidebar.innerHTML = `<a href="">${parsed_user_data.rollNumber} </a>
   <a href="">${parsed_user_data.email} </a>
   <a href>${parsed_user_data.number} </a>
   <a href="">Profile</a>

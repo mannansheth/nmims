@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles/form_style.css">
   <link rel="icon" href="images/nmims.png">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     .login button {
       display: none;
@@ -21,9 +22,14 @@
   <section class="form">
     <div class="login-div">
       <h1>Login page</h1>
-      <form method="GET" action="" onsubmit="Submit(event)">
-        <input placeholder="SAP ID" required maxlength="11" minlength="11" id="username">
-        <input type="password" placeholder="Password" required id="password">
+      <form method="POST" action="" onsubmit="Submit(event)">
+        <input placeholder="SAP ID" id="username">
+        <div class="password-container">
+          <input type="password" placeholder="Password" id="password">
+          <span class="togglePass" onclick="togglePass()" >
+            <i class="fas fa-eye-slash" id="togglePassIcon" ></i>
+          </span>
+        </div>
           <button class="submit" type="submit">
             Submit
           </button>

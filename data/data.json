@@ -1,57 +1,57 @@
 {
-  "70322200117": {
-    "password":"zzm06l6t",
-    "fullName":"Mannan Sheth",
-    "number":"9869968987",
-    "email":"mannan.sheth4@gmail.com",
-    "semester":"5",
-    "course":"BTI",
-    "stream":"CS",
-    "rollNo":"C158",
-    "imageURL":""
-  },
-  "70322200124": {
-    "password":"zzm06l6t",
-    "fullName":"Aryan Shroff",
-    "number":"8104917490",
-    "email":"shroffaryan22@gmail.com",
-    "semester":"5",
-    "course":"BTI",
-    "stream":"CS",
-    "rollNo":"C159",
-    "imageURL":"images/70322200124.jfif"
-  },
-  "70322200175": {
-    "password":"zzm06l6t",
-    "fullName":"Uday Pannu",
-    "number":"8879434695",
-    "email":"udaypannu121@gmail.com",
-    "semester":"5",
-    "course":"BTI",
-    "stream":"CS",
-    "rollNo":"C168",
-    "imageURL":"images/70322200175.jfif"
-  },
-  "70322200115": {
-    "password":"zzm06l6t",
-    "fullName":"Umang Shah",
-    "number":"9324118288",
-    "email":"umang2946@gmail.com",
-    "semester":"5",
-    "course":"BTI",
-    "stream":"CS",
-    "rollNo":"C162",
-    "imageURL":"images/70322200115.jfif"
-  },
-  "70322200060": {
-    "password":"zzm06l6t",
-    "fullName":"Ishan Kadakia",
-    "number":"7021611675",
-    "email":"ishankadakia646@gmail.com",
-    "semester":"5",
-    "course":"BTI",
-    "stream":"CS",
-    "rollNo":"C160",
-    "imageURL":"images/ishanthopda.png"
-  }
+    "70322200115": {
+        "password": "zzm06l6t",
+        "fullName": "Umang Shah",
+        "number": "9324118288",
+        "email": "umang2946@gmail.com",
+        "semester": "5",
+        "course": "BTI",
+        "stream": "CS",
+        "rollNumber": "C162",
+        "imageURL": "images\/70322200115.jfif"
+    },
+    "70322200060": {
+        "password": "zzm06l6t",
+        "fullName": "Ishan Kadakia",
+        "number": "7021611675",
+        "email": "ishankadakia646@gmail.com",
+        "semester": "5",
+        "course": "BTI",
+        "stream": "CS",
+        "rollNumber": "C160",
+        "imageURL": "images\/ishanthopda.png"
+    },
+    "70322200124": {
+        "password": "$2y$10$j\/YNCI3yKqF7MkOSYTUAYuGHR5PGlZIAGYzFhmww8tJ1hdrVx6fYq",
+        "fullName": "Aryan Shroff",
+        "number": "8104917490",
+        "email": "shroffaryan22@gmail.com",
+        "semester": "5",
+        "course": "BTI",
+        "stream": "CS",
+        "rollNumber": "C159",
+        "imageURL": "images\/70322200124.jfif"
+    },
+    "70322200175": {
+        "password": "$2y$10$NC716D0Fb6z3a\/i\/lJenUOEjOqPpB6xSl3Q36hZjRiM1Y8YVv65c2",
+        "fullName": "Uday Pannu",
+        "number": "8879434695",
+        "email": "udaypannu121@gmail.com",
+        "semester": "5",
+        "course": "BTI",
+        "stream": "CS",
+        "rollNumber": "C168",
+        "imageURL": "images\/70322200175.jfif"
+    },
+    "70322200117": {
+        "password": "$2y$10$Tnbz3RAvK0bY7xZKDaL0e.C807z\/ySUejoa0LTeDYprzdOjBkkyBi",
+        "fullName": "Mannan Sheth",
+        "number": "9869968987",
+        "email": "mannan.sheth4@gmail.com",
+        "semester": "5",
+        "course": "BTI",
+        "stream": "CS",
+        "rollNumber": "C158",
+        "imageURL": "images\/profile.png"
+    }
 }

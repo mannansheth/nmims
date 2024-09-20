@@ -19,6 +19,31 @@
   margin:0 10px 0 10px;
   background-color: rgb(225, 225, 225);
 }
+.password-container {
+  position:relative;
+  display:inline-block;
+  width:100%;
+  margin:5px 10px 5px -10px;
+}
+.password-container input {
+  width:100%;
+  box-sizing: border-box;
+}
+
+.password-container .togglePass {
+  position:absolute;
+  right:15px;
+  top:50%;
+  transform:translateY(-50%);
+  cursor:pointer;
+}
+.password-container .togglePass img {
+  background: none; 
+  border: none;     
+  box-shadow: none; 
+  width: 40px;
+  aspect-ratio:16/9     
+}
 .login-div {
   background:linear-gradient(to top left, black, red);
   width:40%;
@@ -46,13 +71,20 @@
   font-size:25px;
   padding:1vw 1.5vw;
 }
+.submit:hover {
+  background-color: rgb(255, 107, 137);
+  transition: 0.2s;
+}
+.submit:active {
+  background-color: brown;
+}
 .form form {
   display:flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   margin-bottom:-20px;
-  row-gap:20px;
+  row-gap:10px;
 }
 .form h3 {
   color:white;
@@ -69,6 +101,9 @@
 }
 .err::placeholder {
   color:Red;
+}
+.err:focus {
+  border: 2px solid red;
 }
 @media (max-width: 1024px) {
   .login-div {

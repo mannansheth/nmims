@@ -17,15 +17,15 @@
   <section class="form">
     <div class="login-div">
       <h1>Registration</h1>
-      <form method="GET" action="registration.html">
+      <form method="POST" onsubmit="{validatePersonalDetails(event)}">
         <input placeholder="First Name" id="firstName">
         <input placeholder="Last Name" id="lastName">
         <input type="tel" placeholder="Phone number" id="number">
-        <input type="email" placeholder="abc@xyz.com" id="email">
-        <input type="number" placeholder="Semester" min="1" max="12" step="1" id="semester">
+        <input type="text" placeholder="abc@xyz.com" id="email">
+        <input type="number" placeholder="Semester" step="1" id="semester">
         <input type="text" placeholder="Course" id="course">
         <input type="text" placeholder="Stream" id="stream">
-        <input type="text" placeholder="Roll number" id="roll number">
+        <input type="text" placeholder="Roll number" id="rollNumber">
         <button class="submit" type="submit">
           Continue
         </button>

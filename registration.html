@@ -19,13 +19,13 @@
     <img src="images/logo.png" class="logo">
     <div class="login-div">
       <h1>Registration</h1>
-      <form method="GET" action="index.html">
-        <input placeholder="Username" required>
+      <form method="GET" onsubmit="{validate(event)}">
+        <input placeholder="SAP ID" id="username">
         <label>Upload your photo in jpg/png format</label>
         <input type="file" accept="image/*" capture="user">
-        <input type="password" placeholder="Password" required>
-        <input type="password"placeholder="Enter Password again" required>
-        <button class="submit" type="submit" onclick="alert('Registration Succesful!')">
+        <input type="password" placeholder="Password" id="password">
+        <input type="password"placeholder="Enter Password again" id="repassword">
+        <button class="submit" type="submit">
           Register
         </button>
         <br>
@@ -39,5 +39,6 @@
   <script src="header.js"></script>
   <script src="footer.js"></script>
   <script src="script/script.js"></script>
+  <script src="script/registration.js"></script>
 </body>
 </html>
