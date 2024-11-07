@@ -14,23 +14,6 @@ setTimeout(() => {
   localStorage.clear();
   console.log("clearing due to timeout");
   
-}, 100000);
+}, 100000000);
 
 
-const togglePass = () => {
-  const passwordField = document.getElementById('password');
-  const icon = document.getElementById('togglePassIcon');
-  const togglePass = document.getElementById('togglePass');
-  const type = passwordField.getAttribute('type')
-  if (type === 'password') {
-    passwordField.setAttribute('type', 'text');
-    icon.classList.remove('fa-eye-slash')
-    icon.classList.add('fa-eye')
-    
-  } else {
-    passwordField.setAttribute('type', 'password');
-    icon.classList.remove('fa-eye');
-    icon.classList.add('fa-eye-slash');
-  }
-  passwordField.focus();
-}

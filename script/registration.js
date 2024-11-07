@@ -126,3 +126,20 @@ const validate = async e => {
     displayError(username, "User already exists");
   } 
 }
+
+const togglePass = (field_id, icon_id) => {
+  const passwordField = document.getElementById(field_id);
+  const icon = document.getElementById(icon_id);
+  const type = passwordField.getAttribute('type')
+  if (type === 'password') {
+    passwordField.setAttribute('type', 'text');
+    icon.classList.remove('fa-eye-slash')
+    icon.classList.add('fa-eye')
+    
+  } else {
+    passwordField.setAttribute('type', 'password');
+    icon.classList.remove('fa-eye');
+    icon.classList.add('fa-eye-slash');
+  }
+  passwordField.focus();
+}

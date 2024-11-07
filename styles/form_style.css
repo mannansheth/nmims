@@ -61,7 +61,7 @@
 .form label {
   color:rgba(255, 255, 255, 0.85);
   align-self: flex-start;
-  margin: 0 0 -1vw 1.5vw;
+  margin-left:2vw;
   font-size:1.4vw;
 
 }
